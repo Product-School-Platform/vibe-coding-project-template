@@ -1,43 +1,67 @@
-# My Vibe Coding Project
+# Vibe Coding Project: Living Repo
 
-> One product, built across six modules. By the end of the certification this repo IS your product — version-controlled, agent-readable, and portable. A teammate should be able to clone it, open it in any AI tool, and have the agent brief them on the product *without you in the room*.
+> My final project for Product School's **AI Vibe Coding** certification. One product problem, carried from Module 2 to Module 6: each build advances the same idea along the **Confidence Line**, from a validated hypothesis to a live, measured product.
 
----
-
-## At a Glance
-
-- **One-sentence pitch:** _What is this product, and who is it for?_
-- **Status (Confidence Line):** `M1 · M2 · M3 · M4 · M5 · M6` — _which phase are you in? what's real vs. mocked?_
-- **Live URLs:**
-  - Lovable preview: _[link]_
-  - Deployed prod: _[link, if any]_
-  - Supabase project: _[link, if any]_
-
-### Where to read next
-- **For PMs** → [`living-prd.md`](living-prd.md)
-- **For engineers** → [`handoff.md`](handoff.md)
-- **For background** → [`context.md`](context.md)
+This is a **template repo**. Click **Use this template → Create a new repository**, name it `my-vibe-coding-project`, and commit one module's artifact per session. **The repo is your portfolio, it shows the journey, not just the endpoint.**
 
 ---
 
-## Module Progress
+## Deliverables at a glance
 
-| Module | Phase | Status | Key Artifact |
-|--------|-------|--------|--------------|
-| **M1** | Activate | [ ] | Build–Show–Learn–Decide loop |
-| **M2** | Validate | [ ] | Riskiest-assumption test |
-| **M3** | Direct | [ ] | [`prompts/`](prompts/) — Living Prompt Pack |
-| **M4** | Structure | [ ] | [`living-prd.md`](living-prd.md) + [`handoff.md`](handoff.md) |
-| **M5** | Ship | [ ] | Live deployment + resistance engineering |
-| **M6** | Measure | [ ] | Evidence-backed continue / pivot / kill |
+| # | Module | Commits | Status | Folder |
+|---|---|---|---|---|
+| 1 | **Velocity** | `prototype-v1.md` · `prototype-v2.md` · `confidence-line-reflection.md` | ☐ | `01-velocity/` |
+| 2 | **Validation** | `validation-brief.md` · `prototype-v3.md` · `show-and-swap-notes.md` | ☐ | `02-validation/` |
+| 3 | **Prompt Chaining** | `PROMPTS.md` (Living Prompt Pack) | ☐ | `03-chaining/` |
+| 4 | **Production Specs** | `PRD.md` · `handoff-note.md` | ☐ | `04-production/` |
+| 5 | **Full-Stack** | deployed share link + hardening notes | ☐ | `05-fullstack/` |
+| 6 | **Evals & Iteration** | final showcase + go/iterate/kill recommendation | ☐ | `06-iteration/` |
 
----
+## My scenario
 
-## How to use this template
+_Pick one in Module 2: no switching after M2._
 
-1. Click **"Use this template" → "Create a new repository"** (do not fork — generate your own copy).
-2. Name it something like `my-vibe-coding-project` and open it in Cursor, VS Code, or GitHub's web editor.
-3. Fill in `README.md`, `context.md`, and the module artifacts as you progress.
-4. Keep `src/` synced from Lovable via the Lovable ↔ GitHub 2-way sync.
+- [ ] The Retention Engine (B2B SaaS, value risk)
+- [ ] The Internal Tool Nobody Uses (CRM, usability)
+- [ ] The Marketplace Trust Problem (value / feasibility)
+- [ ] The Dashboard Nobody Reads (usability)
+- [ ] Bring your own (instructor-approved)
 
-> **Naming rules:** kebab-case for markdown (`living-prd.md`), no spaces in filenames (AI tools URL-encode them and links break).
+**Chosen scenario:** _____
+
+## The three ingredients (visible in every build)
+
+1. **Hypothesis**: what you believe and why
+2. **Real data**: domain metrics on screen, no placeholders
+3. **User voice**: real verbatim quotes
+
+___
+
+## How to submit
+
+- Commit one artifact per module, the repo is the deliverable.
+- Submit your repo URL (and deployed link) to the learning platform within 7 days of your cohort ending.
+
+## Repo structure
+
+```
+my-vibe-coding-project/
+├── README.md                       ← this dashboard
+├── 01-velocity/
+│   ├── prototype-v1.md             ← M1 Lab 1: first build + Show & Swap read
+│   ├── prototype-v2.md             ← M1 Lab 2: two upgrade passes (toy → tool)
+│   └── confidence-line-reflection.md ← M1: optional reflection
+├── 02-validation/
+│   ├── validation-brief.md         ← M2: hypothesis · risk · kill switch
+│   ├── prototype-v3.md             ← M2: the build that tests it
+│   └── show-and-swap-notes.md      ← M2: peer feedback
+├── 03-chaining/
+│   └── PROMPTS.md                  ← M3: the Living Prompt Pack
+├── 04-production/
+│   ├── PRD.md                      ← M4: living PRD
+│   └── handoff-note.md             ← M4: engineering handoff
+├── 05-fullstack/
+│   └── fullstack.md                ← M5: data, access rules, edge cases, deploy link
+└── 06-iteration/
+    └── iteration.md                ← M6: analytics + go/iterate/kill recommendation
+```
